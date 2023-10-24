@@ -24,7 +24,7 @@ int main()
         // Check if the character is a letter (A-Z or a-z)
         // Increment the corresponding count in the array
 
-      for(int i = 0; i < 256; i++){
+      for(int i = 0; i < strlen(input); i++){
         if (input[i] >= 'A' && input[i] <= 'Z' || input[i] >= 'a' && input[i] <= 'z'){
           switch (input[i]){
             case 'A':
